@@ -1,0 +1,14 @@
+3. 
+muscle -in infile.fasta -seqtype auto -maxiters 16 -maxmb 30000000 -log logfile.txt -weight1 clustalw -cluster1 upgmb -sueff 0.1 -root1 pseudo -maxtrees 1 -weight2 clustalw -cluster2 upgmb -sueff 0.1 -root2 pseudo -objscore sp -noanchors -out output.fasta
+
+raxml-ng --threads 80 --force perf_threads -msa infile.txt --workers 20 --search --model LG+G
+
+4.
+Syconycteris australis
+Dobsonia viridis 
+Cynopterus sphinx
+Rousettus leschenaultii
+Epomophorus wahlbergi
+
+5. 
+Such a phylogeny is useful in identifying unique adaptation in bats that may allow them to harbor viruses without experiencing severe diseases. It will also help scientists understand factors that enable viral transfer from bats to other mammals. 
